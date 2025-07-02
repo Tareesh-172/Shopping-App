@@ -1,0 +1,44 @@
+.descriptionbox {
+  margin: 120px 170px;
+}
+
+.descriptionbox-navigation {
+  display: flex;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.descriptionbox-nav-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  width: 171px;
+  height: 70px;
+  background: #fbfbfb;
+  color: #555;
+  border: 1px solid #d0d0d0;
+  border-bottom: none;
+  cursor: pointer;
+}
+
+.descriptionbox-nav-box.active {
+  background: white;
+  color: black;
+  border-bottom: 1px solid white; /* This makes it look like it merges with the content */
+}
+
+.descriptionbox-nav-box + .descriptionbox-nav-box {
+  border-left: none; /* Avoid double border between tabs */
+}
+
+.descriptionbox-description {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border: 1px solid #d0d0d0;
+  border-top: none; /* remove double border at top */
+  padding: 48px;
+  padding-bottom: 70px;
+  background: white;
+}
