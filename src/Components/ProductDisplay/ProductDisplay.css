@@ -324,7 +324,7 @@
     color: #555;
   }
 }
-@media(max-width:500px){
+@media(max-width:475px){
   .productdisplay{
     flex-direction: column;
   }

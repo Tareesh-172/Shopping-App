@@ -130,7 +130,7 @@
     }
 }
 
-@media(max-width:500px){
+@media(max-width:475px){
     .newsletter{
         height: 25vh;
         width: 100%;

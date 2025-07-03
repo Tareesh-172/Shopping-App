@@ -63,7 +63,7 @@
         font-size: 12px;
     }
 }
-@media(max-width:500px){
+@media(max-width:475px){
     .item{
         width: 160px;
         

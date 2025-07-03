@@ -254,7 +254,7 @@
     cursor: pointer;
   }
 }
-@media(max-width:500px){
+@media(max-width:475px){
   .cartitems-format-main{
     display: none;
     grid-template-columns: 0.5fr 3fr 0.5fr;

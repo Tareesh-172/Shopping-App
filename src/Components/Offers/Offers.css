@@ -134,7 +134,7 @@
     }
 }
 
-@media(max-width:500px){
+@media(max-width:475px){
     .offers{
         height: 25vh;
         margin-bottom: 50px;

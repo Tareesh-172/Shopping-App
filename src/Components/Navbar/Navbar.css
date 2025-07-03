@@ -179,7 +179,7 @@
     }
 }
 
-@media(max-width:500px){
+@media(max-width:475px){
     .navbar{
         width: 8px 0px;
         gap: 0;
