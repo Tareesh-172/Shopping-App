@@ -49,11 +49,11 @@ export const ProductDisplay = (props) => {
         </div>
         <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
         <p className='productdisplay-right-category'>
-             Category: <span>Women, T-Shirt, Crop Top</span>
+             Category: <span>Women, T-Shirt, Crop Top</span><br/>Tags: <span>      Modern, Latest</span>
          </p>
-         <p className='productdisplay-right-category'>
+         {/* <p className='productdisplay-right-category'>
            Tags: <span>Modern, Latest</span>
-         </p>
+         </p> */}
 
         </div>
     </div>

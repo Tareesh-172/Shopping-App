@@ -29,17 +29,14 @@ export const DescriptionBox = () => {
               trusted by thousands of happy customers. Explore the best deals on fashion, electronics,
               and more. Free Shipping on all orders above ₹499. Easy 7-Day Return Policy - No Questions Asked.
               100% Secure Payments with all major cards & UPI. New Arrivals Added Daily - Don’t Miss Out!
-              Need Help? Our support team is available 24/7. Rated #1 by thousands of happy customers.
-              Start shopping today and experience premium service. Track your orders live with real-time updates.
-              GST billing available for all purchases.
-            </p>
-            <p>
+              Need Help? Our support team is available 24/7. Rated #1 by thousands of happy customers.<br/> <br/>
+              
               Explore the best deals on fashion, electronics, and more.
               Free Shipping on all orders above ₹499. Easy 7-Day Return Policy - No Questions Asked.
               100% Secure Payments with all major cards & UPI. New Arrivals Added Daily - Don’t Miss Out!
               Need Help? Our support team is available 24/7. Rated #1 by thousands of happy customers.
-              Start shopping today and experience premium service. Track your orders live with real-time updates.
               GST billing available for all purchases.
+             
             </p>
           </>
         ) : (

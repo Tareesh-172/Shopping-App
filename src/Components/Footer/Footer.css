@@ -71,3 +71,29 @@
   margin-bottom: 0;
   text-align: center;
 }
+
+@media(max-width:800px){
+  .footer{
+    gap:20px;
+  }
+  .footer-logo{
+    gap: 10px;
+    align-items: end;
+  }
+  .footer-logon img{
+    width: 40px;
+  }
+  .footer-logo p{
+    font-size: 25px;
+  }
+  .footer-links{
+    font-size: 14px;
+    gap: 10px;
+  }
+  .footer-social-icon img{
+    width: 22px;
+  }
+  .footer-copy{
+    font-size: 13px;
+  }
+}
