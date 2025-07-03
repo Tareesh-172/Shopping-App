@@ -105,7 +105,7 @@
     gap: 10px;
   }
 }
-@media(max-width:700px){
+@media(max-width:800px){
   .loginsignup-container{
     padding: 20px 30px;
   }

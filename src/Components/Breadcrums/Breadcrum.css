@@ -30,7 +30,7 @@
         font-size: 12px;
     }
 }
-@media(max-width:475px){
+@media(max-width:600px){
     .breadcrum{
         font-size: 10px;
     }

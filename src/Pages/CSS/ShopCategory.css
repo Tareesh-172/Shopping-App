@@ -89,7 +89,7 @@
     font-size: 13px;
   }
 }
-@media(max-width:475px){
+@media(max-width:600px){
   .shopcategory-products{
     grid-template-columns: 1fr 1fr;
   }
