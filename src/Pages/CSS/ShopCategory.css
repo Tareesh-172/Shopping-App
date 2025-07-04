@@ -26,8 +26,8 @@
   margin: 40px auto;
   display: flex;
   flex-wrap: wrap;
-  gap: 40px 30px; /* ✅ This gives horizontal and vertical gaps */
-  justify-content: center; /* ✅ Items center lo untayi */
+  gap: 40px 30px; 
+  justify-content: center; 
 }
 
 .shopcategory-loadmore {
@@ -89,8 +89,24 @@
     font-size: 13px;
   }
 }
-@media(max-width:600px){
+/* @media(max-width:600px){
   .shopcategory-products{
+    grid-template-columns: 1fr 1fr ;
+
+  }
+
+} */
+@media (max-width: 600px) {
+  .shopcategory-products {
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .shopcategory-products img {
+    width: 100%;
+    max-width: 370px;
+    height: auto;
   }
 }
+

@@ -5,7 +5,7 @@ import logo from '../Assets/logo.png'
 import cart_icon from '../Assets/cart_icon.png'
 import { Link } from 'react-router-dom'
 import { ShopContext } from '../../Context/ShopContext'
-import nav_dropdown from '../Assets/nav_dropdown.png'
+import nav_dropdown from '../Assets/m4.png'
 
 // export
 const Navbar = () => {
