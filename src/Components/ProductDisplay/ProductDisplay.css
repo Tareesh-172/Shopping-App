@@ -338,10 +338,11 @@
     gap: 8px;
   }
   .productdisplay-img-list img{
-    height: 75px;
+    height: 55px;
   }
   .productdisplay-main-img{
-    height: 330px;
+    height: 250px;
+    width: 200px;
   }
   .productdisplay-right{
     margin: 5px;
@@ -353,7 +354,7 @@
   }
   .productdisplay-right-stars img{
     width: 15px;
-  }
+  } 
   .productdisplay-right-sizes{
     gap: 10px;
     margin: 20px 0px;
